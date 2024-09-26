@@ -2,6 +2,8 @@
 
 let path = require("path");
 
+console.log(__filename);
+
 let filepath = path.resolve("./pathmodule.js")
 console.log(filepath)
 
